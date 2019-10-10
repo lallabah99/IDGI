@@ -1,0 +1,54 @@
+
+
+*{
+    font-family: SourceSansPro-Regular;
+    src: url(SourceSansPro-Regular.ttf);
+    margin:0;
+    padding:0;
+}
+
+
+img{
+    align-content: top right;
+    width: 1em;
+}
+
+ul{
+    list-style:none;
+    text-align: center;
+}
+
+
+li{
+    font-size: 30px;
+}
+
+li a{
+    color: white;
+    background-color:#ff0000;
+    display: block;     
+    margin: 3em;
+    padding: 4em;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+
+
+h1{
+    color:#ff0000;
+    background-color: black;
+    padding: 1em;
+    text-align: center;
+    font-family: SourceCodePro-Regular;
+    src: url(SourceCodePro-Regular.ttf);
+    font-size:6em;
+    
+}
+
+p {
+    padding: 0.25em;
+    margin: 0.5em;
+    font-size: 4em;
+    text-align: center;
+}
