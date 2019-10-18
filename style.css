@@ -74,6 +74,14 @@ p {
     text-align: center;
 }
 
+/**#homepage{
+    background-image: url(images/kom.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top:2em;**/
+
+
 
 .terug img{
     width: 50px;
@@ -147,7 +155,7 @@ p.euros{
 }
 
 main.choiceinfo{
-    background-image: url(http://www.helftheuvel.com/sites/helftheuvel.com/files/fotos/201905/AH%202019.png);
+    background-image: url(images/fruit.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
