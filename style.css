@@ -1,8 +1,23 @@
+@viewport{
+    zoom:1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    width:extend-to-zoom;
+    zoom: 1.0;
+}
+
 *{
     font-family: SourceSansPro-Regular;
     src: url(SourceSansPro-Regular.ttf);
     margin:0;
     padding:0;
+}
+
+body{
+    min-height:400px;
+    margin-top:3%;
 }
 
 ul{
@@ -23,7 +38,7 @@ li a{
     background-color:#ff0000;
     display: block;     
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
     border-radius: 25px;
     text-decoration: none;
 }
@@ -32,7 +47,8 @@ header{
     background-color: black;
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
+    min-height:100px;
 }
 
 h1{
@@ -40,37 +56,38 @@ h1{
     text-align: center;
     font-family: SourceCodePro-Regular;
     src: url(SourceCodePro-Regular.ttf);
-    font-size:2em;
+    font-size:3em;
     padding-bottom: 0.3em;
     
 }
 
 h2{
-    padding-top:5em;
+    padding-top:6em;
     text-align: center;
+    font-size: 2em;;
 
 }
 
 p {
-    padding-top: 4em;
+    padding-top: 1em;
     font-size: 2em;
     text-align: center;
 }
 
 
 .terug img{
-    width: 35px;
-    height: 28px;
+    width: 50px;
+    height: 40px;
     position: absolute;
-    margin-left: 10%;
+    margin-left: 5%;
     top:4em;
 }
 
 .vlag img{
-    width: 35px;
-    height: 28px;
+    width: 50px;
+    height: 40px;
     position:absolute;
-    margin-left: 90%;
+    margin-left: 85%;
     top:4em;
 }
 
@@ -113,16 +130,23 @@ img.logo{
 
 }
 
+p.euros{
+    color:#ff0000;
+    font-family: SourceCodePro-Regular;
+    src: url(SourceCodePro-Regular.ttf);
+    font-size:1.5em
+}
+
 .click{
     float: right;
     width:1em;
     height:1.3em;
     margin:-1em;
-    padding:0.4em;
+    padding:1em;
     align-content: right;
 }
 
-main#ah{
+main.choiceinfo{
     background-image: url(http://www.helftheuvel.com/sites/helftheuvel.com/files/fotos/201905/AH%202019.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -130,6 +154,10 @@ main#ah{
     height: 100%;
     margin-top:9em;
     padding: 1em;
+}
+
+main.choiceinfo#cocos{
+    background-image: url(http://www.cocosoutback.com/wp-content/uploads/2017/01/IMG_0662.jpg);
 }
 
 .explanation{
@@ -141,17 +169,21 @@ main#ah{
     align-content: left;
 }
 
-#ah p{
+.choiceinfo p{
     text-align: left;
 }
 
-#ah a{
+.choiceinfo a{
     color:#ff0000;
     text-decoration: none;
 }
 
-#ah a:hover{
+.choiceinfo a:hover{
     color: #179EDA;
+}
+
+.choiceinfo#cocos a:hover{
+    color:hotpink;
 }
 
 h3{
