@@ -60,7 +60,6 @@ h1{
     src: url(fonts/SourceSansPro-Regular.ttf);
     font-size:3em;
     padding-bottom: 0.3em;
-    
 }
 
 h2{
@@ -191,7 +190,7 @@ main.choiceinfo#cocos{
 h3{
     color: #ff0000;
     font-family: SourceCodePro-Regular;
-    src: url(SourceCodePro-Regular.ttf);
+    src: url(font/SourceCodePro-Regular.ttf);
     font-size:3em;
 }
 
