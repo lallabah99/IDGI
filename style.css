@@ -190,7 +190,7 @@ main.choiceinfo#cocos{
 h3{
     color: #ff0000;
     font-family: SourceCodePro-Regular;
-    src: url(font/SourceCodePro-Regular.ttf);
+    src: url(fonts/SourceCodePro-Regular.ttf);
     font-size:3em;
 }
 
