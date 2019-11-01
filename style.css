@@ -8,12 +8,18 @@
     zoom: 1.0;
 }
 
+@font-face{
+    font-family: SourceSansPro-Regular;
+    src: url(fonts/SourceSansPro-Regular.ttf)
+}
+
 *{
     font-family: SourceSansPro-Regular;
-    src: url(SourceSansPro-Regular.ttf);
+    src: url(fonts/SourceSansPro-Regular.ttf);
     margin:0;
     padding:0;
 }
+
 
 body{
     min-height:400px;
@@ -51,7 +57,7 @@ h1{
     color:#ff0000;
     text-align: center;
     font-family: SourceCodePro-Regular;
-    src: url(SourceCodePro-Regular.ttf);
+    src: url(fonts/SourceSansPro-Regular.ttf);
     font-size:3em;
     padding-bottom: 0.3em;
     
@@ -188,5 +194,4 @@ h3{
     src: url(SourceCodePro-Regular.ttf);
     font-size:3em;
 }
-
 
