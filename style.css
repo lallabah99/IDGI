@@ -9,13 +9,17 @@
 }
 
 @font-face{
-    font-family: SourceSansPro-Regular;
+    font-family: 'Source Sans Pro', sans-serif;
     src: url(./fonts/SourceSansPro-Regular.ttf)
 }
 
+@font-face{
+    font-family: 'Source Code Pro', monospace;
+    src: url(./fonts/SourceCodePro-Regular.ttf)
+}
+
 *{
-    font-family: SourceSansPro-Regular;
-    src: url(./fonts/SourceSansPro-Regular.ttf);
+    font-family: 'Source Sans Pro', sans-serif;
     margin:0;
     padding:0;
 }
@@ -56,8 +60,7 @@ header{
 h1{
     color:#ff0000;
     text-align: center;
-    font-family: SourceCodePro-Regular;
-    src: url(./fonts/SourceSansPro-Regular.ttf);
+    font-family: 'Source Code Pro', monospace;
     font-size:3em;
     padding-bottom: 0.3em;
 }
@@ -126,15 +129,12 @@ img.logo{
     color:#ff0000;
     text-align: left;
     font-size:1.6em;
-    font-family: SourceCodePro-Regular;
-    src: url(fonts/SourceCodePro-Regular.ttf);
-
+    font-family: 'Source Code Pro', monospace;
 }
 
 p.euros{
     color:#ff0000;
-    font-family: SourceCodePro-Regular;
-    src: url(fonts/SourceCodePro-Regular.ttf);
+    font-family: 'Source Code Pro', monospace;
     font-size:1.5em
 }
 
@@ -189,8 +189,7 @@ main.choiceinfo#cocos{
 
 h3{
     color: #ff0000;
-    font-family: SourceCodePro-Regular;
-    src: url(fonts/SourceCodePro-Regular.ttf);
+    font-family: 'Source Code Pro', monospace;
     font-size:3em;
 }
 
