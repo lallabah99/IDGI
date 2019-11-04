@@ -158,7 +158,7 @@ main.choiceinfo{
 }
 
 main.choiceinfo#cocos{
-    background-image: url(images/cocktails.JPG);
+    background-image: url(images/drinks.JPG);
 }
 
 .explanation{
@@ -184,7 +184,7 @@ main.choiceinfo#cocos{
 }
 
 .choiceinfo#cocos a:hover{
-    color:hotpink;
+    color:lime;
 }
 
 h3{
