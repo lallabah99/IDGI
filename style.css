@@ -248,3 +248,10 @@ h3{
     margin: 0.5em 1em;
     background-color:white;
 }
+
+footer{
+    background-color:darkgray; 
+    font-size: 0.3em;
+    display:block;
+    padding-bottom: 1em;
+}
