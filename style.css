@@ -39,9 +39,10 @@ body{
     margin-top:3%;
 }
 
-.choices li, .options li{
+.choices li, .options li, .choose li{
     font-size: 2em;
 }
+
 
 .choices li a{
     color: white;
@@ -74,6 +75,13 @@ h2{
     text-align: center;
     font-size: 2em;;
 
+}
+
+h4{
+    color:white;
+    background-color:rgba(255, 0, 0, 0.5);
+    padding:0.5em;
+    font-size: 1.2em;
 }
 
 p {
@@ -175,11 +183,11 @@ main.choiceinfo#cocos{
     color:white;
     margin: 2em;
     padding: 2em;
-    align-content: left;
+    align-content:left;
 }
 
 .choiceinfo p{
-    text-align: left;
+    text-align:left;
 }
 
 main.language{
@@ -187,9 +195,13 @@ main.language{
     margin-top:9em;
 }
 
+section.explanation{
+    margin-top:10em;
+}
+
 .language a{
     text-decoration: none;
-    color:#ff0000;
+    color:ff0000;
 }
 
 .language a:hover{
@@ -215,7 +227,7 @@ h3{
     font-size:3em;
 }
 
-.translation{
+.translation, .choose{
     list-style: none;
     display:flex;
     justify-content: center;
@@ -228,4 +240,11 @@ h3{
     margin: 0.5em 1em;
     color: white;
     background-color: black;
+}
+
+.choose li{
+    display: inline;
+    padding: 1em;
+    margin: 0.5em 1em;
+    background-color:white;
 }
