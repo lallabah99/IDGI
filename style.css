@@ -24,22 +24,26 @@
     padding:0;
 }
 
+ul.choices{
+    list-style:none;
+    text-align: center;
+}
+
+ul.options{
+    list-style:none;
+    text-align: center;
+}
 
 body{
     min-height:400px;
     margin-top:3%;
 }
 
-ul{
-    list-style:none;
-    text-align: center;
-}
-
-li{
+.choices li, .options li{
     font-size: 2em;
 }
 
-li a{
+.choices li a{
     color: white;
     background-color:#ff0000;
     display: block;     
@@ -66,7 +70,7 @@ h1{
 }
 
 h2{
-    padding-top:6em;
+    padding-top:4em;
     text-align: center;
     font-size: 2em;;
 
@@ -117,6 +121,10 @@ img.logo{
     font-size: 0.66em;
     text-align: left;
     margin:1em;
+    display: block;     
+    padding: 1.5em;
+    border-radius: 25px;
+    text-decoration: none;
 }
 
 .options p{
@@ -174,6 +182,20 @@ main.choiceinfo#cocos{
     text-align: left;
 }
 
+main.language{
+    background-image: url(images/aardbei3.JPG);
+    margin-top:9em;
+}
+
+.language a{
+    text-decoration: none;
+    color:#ff0000;
+}
+
+.language a:hover{
+    color:black;
+}
+
 .choiceinfo a{
     color:#ff0000;
     text-decoration: none;
@@ -193,3 +215,17 @@ h3{
     font-size:3em;
 }
 
+.translation{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.translation li {
+    display: inline;
+    padding: 2em;
+    margin: 0.5em 1em;
+    color: white;
+    background-color: black;
+}
