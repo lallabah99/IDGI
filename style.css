@@ -181,7 +181,7 @@ main.choiceinfo#cocos{
     font-size: 0.5em;
     background-color: rgba(0,0,0,0.86);
     color:white;
-    margin: 2em;
+    margin: 1em;
     padding: 2em;
     align-content:left;
 }
@@ -196,12 +196,12 @@ main.language{
 }
 
 section.explanation{
-    margin-top:10em;
+    margin-top:1.3em;
 }
 
 .language a{
     text-decoration: none;
-    color:ff0000;
+    color:#ff0000;
 }
 
 .language a:hover{
@@ -244,8 +244,8 @@ h3{
 
 .choose li{
     display: inline;
-    padding: 1em;
-    margin: 0.5em 1em;
+    padding: 0.4em;
+    margin: 0.5em ;
     background-color:white;
 }
 
